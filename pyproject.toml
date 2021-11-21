@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "text-classifier"
+version = "0.1.0"
+description = ""
+authors = ["feras98nawafleh <feras.a.nawafleh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<3.10"
+pandas = "^1.3.4"
+tensorflow = "^2.7.0"
+keras = "^2.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
